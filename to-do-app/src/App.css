@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Anton&family=Arvo:wght@700&family=Barlow+Condensed&family=Bebas+Neue&family=Black+Ops+One&family=Indie+Flower&family=Merriweather:wght@900&family=Metal+Mania&family=PT+Mono&family=Pacifico&family=Reem+Kufi:wght@400..700&family=Roboto:wght@300;400&family=Space+Mono&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu Sans Mono', sans-serif;
+}
+body{
+  background-color: #343a40;
+}
+
+.navbar{
+    background-color: #343a40;
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+}
+
+.footer{
+    background-color: #343a40;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    column-gap: 15px;
+}
+
+.footer img{
+    width: 150px;
+    margin-right: 10px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  row-gap: 5px;
+}
+
+.homeButton{
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.homeButton:hover{
+  background-color: #0056b3;
+}
+
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.input input{
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+.input button{
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.listAnalize{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  column-gap: 20px;
+}
+.listAnalize .circle{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  border: #0056b3 5px solid;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-height: 360px;
+  overflow-y: auto;
+  border: #0056b3 5px solid;
+  width: 50%;
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  column-gap: 20px;
+  background-color: white;
+  border: #0056b3 5px solid;
+  width: 100%;
+}
+
+.task input{
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+.task p{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.task button{
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.task button:hover{
+  background-color: #0056b3;
+}
+
+.checkBox{
+  width: 30px;
+  height: 30px;
+  border: #0056b3 5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+
