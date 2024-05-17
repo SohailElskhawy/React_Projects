@@ -184,3 +184,79 @@ a{
   border-radius: 5px;
 }
 
+/* Resposive */
+
+@media screen and (max-width: 768px){
+  .home{
+    padding: 15px;
+  }
+
+  .input{
+    column-gap: 10px;
+  }
+
+  .input input{
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  .input button{
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+
+  .listAnalize{
+    column-gap: 10px;
+  }
+
+  .list{
+    width: 80%;
+  }
+
+  .task{
+    padding: 15px;
+    column-gap: 10px;
+  }
+
+  .task input{
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  .task p{
+    font-size: 1rem;
+  }
+
+  .task button{
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+
+  .checkBox{
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+  }
+
+  .footer{
+    font-size: 1rem;
+  }
+
+  .footer img{
+    width: 100px;
+  }
+
+  .homeButton{
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+
+  .navbar{
+    font-size: 1.5rem;
+  }
+
+  .navbar a{
+    font-size: 1.5rem;
+  }
+}
+
