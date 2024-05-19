@@ -172,3 +172,52 @@ button:hover{
   text-align: start;
   padding: 0 5px;
 }
+
+@media screen and (max-width: 768px){
+  .content{
+    width: 70%;
+    justify-content: center;
+  }
+
+  footer{
+    font-size: 0.5rem;
+  }
+
+  footer img{
+    width: 150px;
+  }
+
+  .pomodoroCount p{
+    font-size: 1rem;
+  }
+
+  button{
+    padding: 5px;
+  }
+
+  .settings{
+    padding: 30px 10px;
+  }
+  
+  .settingsHeader{
+    padding: 5px;
+  }
+  
+  .settingsBody{
+    row-gap: 25px;
+    gap: 10px;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .input{
+    column-gap: 10px;
+    font-size: 1rem;
+  }
+  
+  .input input{
+    width: 60px;
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+}
